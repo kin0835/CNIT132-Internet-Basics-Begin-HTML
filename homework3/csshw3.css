@@ -9,3 +9,11 @@ h3{
 div{
     width: 760px; background-color:#FFF; border-style: solid; border-color: blue; margin: auto;
 }
+
+p{
+    text-align: center; font-size: 20px;
+}
+
+span{
+    background-color:yellow;
+}
