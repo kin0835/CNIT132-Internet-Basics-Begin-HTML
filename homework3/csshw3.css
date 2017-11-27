@@ -7,7 +7,7 @@ h3{
 }
 
 div{
-    width: 760px; background-color:#FFF; border-style: solid; border-color: blue; margin: auto;
+    width: 760px; background-color:#FFF; border-style: solid; border-color: blue; border-width: 2px; margin: auto; 
 }
 
 h3 + p{
@@ -35,6 +35,24 @@ img{
 	width: 150px; height: 140px; float: left; margin-right:20px;
 }
 
-table, th, td{
-	border: 1px solid black; 
+th{
+	border: 1px solid black; color: #CC0000; border-right-color: gray;border-bottom-color: gray;
 }
+
+td{
+	border: 1px solid black; border-right-color: gray;border-bottom-color: gray;
+}
+
+
+table {
+    border: 2px solid grey; border-right-color: black;border-bottom-color: black;
+}
+
+tr:nth-child(even) {background-color: #999999;}
+
+li {
+    list-style-image: url('trillium.gif');
+}
+
+
+
